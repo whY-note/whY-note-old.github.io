@@ -1,29 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <title>{{ page.title }}</title>
 
-  <!-- AOS CSS -->
-  <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+<meta charset="utf-8">
+<title>{{ page.title }}</title>
 
-  <link rel="stylesheet" href="/assets/css/style.css">
+<link rel="stylesheet" href="/assets/css/intro.css">
+
 </head>
 
 <body>
 
-  {{ content }}
+{{ content }}
 
-  <!-- AOS JS -->
-  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-
-  <script>
-    AOS.init({
-      duration: 800,
-      once: true
-    });
-  </script>
+<script src="/assets/js/typewriter.js"></script>
+<script src="/assets/js/particles.js"></script>
 
 </body>
 </html>
