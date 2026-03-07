@@ -1,0 +1,10 @@
+body {
+    font-family: Arial;
+    margin: 0;
+  }
+  
+  .section {
+    height: 400px;
+    padding: 80px;
+    border-bottom: 1px solid #eee;
+  }
