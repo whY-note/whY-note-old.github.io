@@ -10,6 +10,51 @@ title: Home
   <p>I work on robotics and AI.</p>
 </div>
 
+<div class="section" data-aos="fade-up">
+  <h2>About Me</h2>
+  <p>I work on robotics and AI.</p>
+</div>
+
+<div class="section" data-aos="fade-up">
+  <h2>About Me</h2>
+  <p>I work on robotics and AI.</p>
+</div>
+
+<div class="section" data-aos="fade-up">
+  <h2>About Me</h2>
+  <p>I work on robotics and AI.</p>
+</div>
+
+<div class="section" data-aos="fade-up">
+  <h2>About Me</h2>
+  <p>I work on robotics and AI.</p>
+</div>
+
+<div class="section" data-aos="fade-up">
+  <h2>About Me</h2>
+  <p>I work on robotics and AI.</p>
+</div>
+
+<div class="section" data-aos="fade-up">
+  <h2>About Me</h2>
+  <p>I work on robotics and AI.</p>
+</div>
+
+<div class="section" data-aos="fade-up">
+  <h2>About Me</h2>
+  <p>I work on robotics and AI.</p>
+</div>
+
+<div class="section" data-aos="fade-up">
+  <h2>About Me</h2>
+  <p>I work on robotics and AI.</p>
+</div>
+
+<div class="section" data-aos="fade-up">
+  <h2>About Me</h2>
+  <p>I work on robotics and AI.</p>
+</div>
+
 <div class="section" data-aos="fade-left">
   <h2>Projects</h2>
   <p>Project list here.</p>
