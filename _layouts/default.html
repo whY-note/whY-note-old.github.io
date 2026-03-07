@@ -1,31 +1,29 @@
----
-layout: compress
----
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
 
-{% include base_path %}
+  <!-- AOS CSS -->
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
 
-<!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}" class="no-js"{% if site.site_theme == "dark" %} data-theme="dark"{% endif %}>
-  <head>
-    {% include head.html %}
-    {% include head/custom.html %}
-  </head>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
 
-  <body>
+<body>
 
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
+  {{ content }}
 
-    {{ content }}
+  <!-- AOS JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
 
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
-      </footer>
-    </div>
+  <script>
+    AOS.init({
+      duration: 800,
+      once: true
+    });
+  </script>
 
-    {% include scripts.html %}
-
-  </body>
+</body>
 </html>
