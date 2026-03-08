@@ -1,4 +1,4 @@
-const text="WELCOME TO MY WORLD"
+const text="Haowen Yan"
 
 let i=0
 

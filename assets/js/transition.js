@@ -1,8 +1,8 @@
 function freezeFrame(){
 
-    const video=document.getElementById("bg-video")
+   const video=document.getElementById("bg-video")
     
-    const canvas=document.getElementById("capture-canvas")
+   const canvas=document.getElementById("capture-canvas")
     
     const ctx=canvas.getContext("2d")
     
@@ -13,7 +13,8 @@ function freezeFrame(){
     
     video.style.display="none"
     
-    canvas.style.display="block"
+    // canvas.style.display="block"
+    canvas.style.opacity="1"
     
     const dataURL=canvas.toDataURL("image/png")
     
@@ -27,7 +28,7 @@ function freezeFrame(){
     
     setTimeout(()=>{
     
-    window.location.href="/home/"
+       window.location.href="/home/"
     
     },2200)
     
