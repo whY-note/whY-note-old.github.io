@@ -1,16 +1,17 @@
-const text = "WELCOME TO MY WORLD"
+const text="WELCOME TO MY WORLD"
 
-let i = 0
+let i=0
 
-const speed = 80
+const speed=80
 
-const target = document.getElementById("typewriter")
+const target=document.getElementById("typewriter")
 
-function typeWriter() {
+function typeWriter(){
+   if(!target)return
 
-  if(i < text.length){
+   if(i<text.length){
 
-      target.innerHTML += text.charAt(i)
+      target.innerHTML+=text.charAt(i)
 
       i++
 
@@ -20,4 +21,4 @@ function typeWriter() {
 
 }
 
-window.onload = typeWriter
+window.onload=typeWriter

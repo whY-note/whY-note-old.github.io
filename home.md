@@ -4,8 +4,22 @@ title: Home
 permalink: /home/
 ---
 
-# Welcome
+<div id="home-header">
 
-This is the main homepage.
+  <img id="logo" />
 
-Your content starts here.
+  <h1>Welcome</h1>
+
+</div>
+
+<script>
+
+const logo = document.getElementById("logo")
+
+const saved = localStorage.getItem("logoFrame")
+
+if(saved){
+  logo.src = saved
+}
+
+</script>

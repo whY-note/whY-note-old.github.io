@@ -1,65 +1,86 @@
-html, body {
-    margin:0;
-    padding:0;
-    height:100%;
-    background:black;
-    font-family:Helvetica, Arial, sans-serif;
+html,body{
+  margin:0;
+  padding:0;
+  background:black;
+  font-family:Helvetica,Arial;
   }
   
-  #video-container {
-    position:fixed;
-    width:100%;
-    height:100%;
-    overflow:hidden;
-  }
+  #video-container{
   
-  #bg-video {
-  
-    width:100%;
-    height:100%;
-  
-    object-fit:cover;
-  
-    filter:brightness(0.7);
+  position:fixed;
+  width:100%;
+  height:100%;
+  overflow:hidden;
   
   }
   
-  #overlay {
+  video{
   
-    position:absolute;
-    top:50%;
-    left:50%;
-  
-    transform:translate(-50%, -50%);
-  
-    color:white;
-  
-    font-size:60px;
-    letter-spacing:4px;
+  width:100%;
+  height:100%;
+  object-fit:cover;
   
   }
   
-  #particle-canvas {
+  #overlay{
   
-    position:absolute;
+  position:absolute;
   
-    top:0;
-    left:0;
+  top:50%;
+  left:50%;
   
-    width:100%;
-    height:100%;
+  transform:translate(-50%,-50%);
   
-    pointer-events:none;
+  color:white;
+  
+  font-size:60px;
+  
+  }
+  
+  #capture-canvas{
+  
+  position:absolute;
+  top:0;
+  left:0;
+  
+  width:100%;
+  height:100%;
+  
+  display:none;
+  
+  }
+  
+  #capture-canvas.animate{
+  
+  display:block;
+  
+  transition:all 2s ease;
+  
+  width:120px;
+  height:120px;
+  
+  top:20px;
+  left:20px;
+  
+  }
+  
+  #logo{
+  
+  width:120px;
+  position:absolute;
+  
+  top:20px;
+  left:20px;
   
   }
   
   #typewriter::after{
-    content:"|";
-    animation:blink 1s infinite;
+  content:"|";
+  animation:blink 1s infinite;
   }
   
   @keyframes blink{
-    0%{opacity:1}
-    50%{opacity:0}
-    100%{opacity:1}
+  0%{opacity:1}
+  50%{opacity:0}
+  100%{opacity:1}
   }

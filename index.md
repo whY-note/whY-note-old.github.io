@@ -10,7 +10,7 @@ permalink: /
     <source src="/assets/video/intro.mp4" type="video/mp4">
   </video>
 
-  <canvas id="particle-canvas"></canvas>
+  <canvas id="capture-canvas"></canvas>
 
   <div id="overlay">
       <h1 id="typewriter"></h1>
@@ -24,11 +24,12 @@ const video = document.getElementById("bg-video")
 
 video.addEventListener("ended", () => {
 
-    startParticles()
+    // startParticles()
 
-    setTimeout(()=>{
-        window.location.href = "/home/"
-    },3000)
+    // setTimeout(()=>{
+    //     window.location.href = "/home/"
+    // },3000)
+    freezeFrame()
 
 })
 
