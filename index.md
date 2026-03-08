@@ -15,7 +15,7 @@ permalink: /
   <div id="overlay">
       <h1 id="typewriter"></h1>
   </div>
-
+  <div id="three-container"></div>
 </div>
 
 <script>

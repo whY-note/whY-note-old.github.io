@@ -6,7 +6,7 @@ permalink: /home/
 
 <div id="home-header">
 
-  <img id="logo" />
+  <img id="logo" src="/assets/logo.png"/>
 
   <h1>Welcome</h1>
 
