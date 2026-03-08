@@ -1,4 +1,4 @@
-const text="Haowen Yan v4.2"
+const text="Haowen Yan v4.2.1"
 
 let i=0
 
